@@ -361,7 +361,13 @@ a {
   .btn-default {
     width: 50%;
     margin-bottom: 10px;
-    font-size: 13px; } }
+    font-size: 13px; }
+
+    #hideOnMobile{
+      display: none;
+    }
+
+   }
 
 @media (max-width: 480px) {
   .slider_title {
@@ -377,7 +383,14 @@ a {
     font-size: 18px; }
   .fa-slider {
     border: none;
-    padding: 0; } }
+    padding: 0; } 
+
+    #hideOnMobile{
+      display: none;
+      color: red;
+    }
+
+  }
 
 /* ==============================================================
    ABOUT
@@ -1033,7 +1046,12 @@ footer {
       position: static;
       margin: 0 0 15px; }
     .subscribe #js-subscribe-result .help-block {
-      margin: 10px 0 15px; } }
+      margin: 10px 0 15px; } 
+
+      .hideOnMobile{
+        display: none;
+      }
+    }
 
 .signup_form {
   font-family: "Lora", serif;
