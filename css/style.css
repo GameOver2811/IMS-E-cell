@@ -3175,7 +3175,7 @@ div.panel {
  * COMING SOON
  * ==================================================== */
 .coming-soon {
-  background: url(../images/coming-soon-img.jpg) no-repeat center center;
+  background: url(../images/background_coming.webp) no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
   display: table;
@@ -3199,10 +3199,12 @@ div.panel {
     display: block; }
   .coming-soon-block h1 {
     color: #fff;
+    text-shadow: 2px 2px #061846;
     padding: 40px 0 10px;
     font-weight: 700; }
   .coming-soon-block p {
     color: #fff;
+    text-shadow: 2px 2px #061846;
     font-size: 21px; }
   .coming-soon-block a {
     margin: 20px 0 0; }
