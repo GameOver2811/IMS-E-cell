@@ -3214,10 +3214,11 @@ div.panel {
     top: 58%; } }
 
 .video-section .pattern-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: none;
   padding: 110px 0 32px;
+  margin: 0px;
   min-height: 800px;
-  /* Incase of overlay problems just increase the min-height*/ }
+}
 
 .video-section h1,
 .video-section h3 {
@@ -3227,8 +3228,21 @@ div.panel {
 .video-section .buttonBar {
   display: none; }
 
+.video-section video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Increase the height to 150% */
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+
 .player {
-  font-size: 1px; }
+  font-size: 1px; 
+}
 
 .video-title-block {
   position: absolute;
